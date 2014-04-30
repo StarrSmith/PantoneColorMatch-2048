@@ -55,14 +55,14 @@ h1.title {
 .score-container, .best-container {
   position: relative;
   display: inline-block;
-  background: #aab1b0;
+  background: #fff;
   padding: 15px 25px;
   font-size: 25px;
   height: 25px;
   line-height: 47px;
   font-weight: bold;
   border-radius: 3px;
-  color: white;
+  color: #aab1b0;
   text-align: center; }
   .score-container:after, .best-container:after {
     position: absolute;
@@ -73,7 +73,7 @@ h1.title {
     font-size: 13px;
     line-height: 13px;
     text-align: center;
-    color: #eee4da; }
+    color: #aab1b0; }
   .score-container .score-addition, .best-container .score-addition {
     position: absolute;
     right: 30px;
@@ -148,12 +148,12 @@ h1.title {
 p {
   margin-top: 0;
   margin-bottom: 10px;
-  line-height: 1.65; }
+  line-height: 1.2; }
 
 a {
   color: #fff;
   font-weight: bold;
-  text-decoration: underline;
+  text-decoration: none;
   cursor: pointer; }
 
 strong.important {
@@ -225,15 +225,17 @@ hr {
     .game-container .game-message p {
       font-size: 60px;
       font-weight: bold;
-      height: 60px;
-      line-height: 60px;
-      margin-top: 222px; }
+      background-color: #fff;
+      color: #aab1b0;
+      height: 200px;
+      line-height: 200px;
+      margin-top: 150px; }
     .game-container .game-message .lower {
       display: block;
-      margin-top: 59px; }
+      margin-top: -75px; }
     .game-container .game-message a {
       display: inline-block;
-      background: #8f7a66;
+      background: #aab1b0;
       border-radius: 3px;
       padding: 0 20px;
       text-decoration: none;
@@ -375,6 +377,8 @@ hr {
     white-space: pre-line;
     color: #fff;
     font-size: 11px;
+    font-weight: bold;
+    letter-spacing: 0.01em;
     line-height: 12px;
     padding-left: 5px;
   }
@@ -388,6 +392,8 @@ hr {
     white-space: pre-line;
     color: #fff;
     font-size: 11px;
+    font-weight: bold;
+    letter-spacing: 0.01em;
     line-height: 12px;
     padding-left: 5px;
   }
@@ -400,6 +406,8 @@ hr {
     white-space: pre-line;
     color: #fff;
     font-size: 11px;
+    font-weight: bold;
+    letter-spacing: 0.01em;
     line-height: 12px;
     padding-left: 5px;
   }
@@ -412,6 +420,8 @@ hr {
     white-space: pre-line;
     color: #fff;
     font-size: 11px;
+    font-weight: bold;
+    letter-spacing: 0.01em;
     line-height: 12px;
     padding-left: 5px;
   }
@@ -424,9 +434,10 @@ hr {
     white-space: pre-line;
     color: #fff;
     font-size: 11px;
+    font-weight: bold;
+    letter-spacing: 0.01em;
     line-height: 12px;
-    padding-left: 5px;
-  }
+    padding-left: 5px;  }
   .tile.tile-64 .tile-inner {
     color: #83b5dd;
     background: #83b5dd; }
@@ -436,6 +447,8 @@ hr {
     white-space: pre-line;
     color: #fff;
     font-size: 11px;
+    font-weight: bold;
+    letter-spacing: 0.01em;
     line-height: 12px;
     padding-left: 5px;
   }
@@ -453,6 +466,8 @@ hr {
     white-space: pre-line;
     color: #fff;
     font-size: 11px;
+    font-weight: bold;
+    letter-spacing: 0.01em;
     line-height: 12px;
     padding-left: 5px;
   }
@@ -470,6 +485,8 @@ hr {
     white-space: pre-line;
     color: #fff;
     font-size: 11px;
+    font-weight: bold;
+    letter-spacing: 0.01em;
     line-height: 12px;
     padding-left: 5px;
   }
@@ -487,6 +504,8 @@ hr {
     white-space: pre-line;
     color: #fff;
     font-size: 11px;
+    font-weight: bold;
+    letter-spacing: 0.01em;
     line-height: 12px;
     padding-left: 5px;
   }
@@ -504,6 +523,8 @@ hr {
     white-space: pre-line;
     color: #fff;
     font-size: 11px;
+    font-weight: bold;
+    letter-spacing: 0.01em;
     line-height: 12px;
     padding-left: 5px;
   }
@@ -521,6 +542,8 @@ hr {
     white-space: pre-line;
     color: #fff;
     font-size: 11px;
+    font-weight: bold;
+    letter-spacing: 0.01em;
     line-height: 12px;
     padding-left: 5px;
   }
@@ -638,12 +661,12 @@ hr {
 .game-intro {
   float: left;
   color: #fff;
-  line-height: 20px;
-  margin-bottom: 20px; }
+  line-height: 1.2;
+  margin-bottom: 40px; }
 
 .restart-button {
   display: inline-block;
-  background: #8f7a66;
+  background: #aab1b0;
   border-radius: 3px;
   padding: 0 20px;
   text-decoration: none;
