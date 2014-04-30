@@ -95,6 +95,55 @@ h1.title {
 
 .best-container:after {
   content: "Best"; }
+  
+.color-key {
+  /*overflow: visible;*/
+  height: 50px;
+  margin-bottom: 10px;
+}
+
+.color-square {
+  width: 41px;
+  height: 41px;
+  float: left;
+  border: solid 4px #fff;
+}
+.color-square + .color-square {
+  border-left: 0px;
+}
+#cayenne {
+  background-color: #e46764;
+}
+#celosia {
+  background-color: #f47d44;
+}
+#freesia {
+  background-color: #ffd600;
+}
+#hemlock {
+  background-color: #9eccb3;
+}
+#comfrey {
+  background-color: #46866f;
+}
+#placid {
+  background-color: #83b5dd;
+}
+#dazzling {
+  background-color: #006bb6;
+}
+#tulip {
+  background-color: #9B90C8;
+}
+#haze {
+  background-color: #7f7ea8;
+}
+#orchid {
+  background-color: #b163a3;
+}
+#magpurp {
+  background-color: #752864;
+}
 
 p {
   margin-top: 0;
