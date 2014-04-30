@@ -381,11 +381,10 @@ hr {
     letter-spacing: 0.01em;
     line-height: 12px;
     padding-left: 5px;
+  }
     @media screen and (max-width: 520px) {
       .tile.tile-2:after {
-        font-size: 8px;
-      }
-  }
+        font-size: 8px; } }
   .tile.tile-4 .tile-inner {
     color: #f47d44;
     background: #f47d44;
