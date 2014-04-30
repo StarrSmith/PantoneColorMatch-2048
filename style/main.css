@@ -97,7 +97,6 @@ h1.title {
   content: "Best"; }
   
 .color-key {
-  /*overflow: visible;*/
   height: 50px;
   margin-bottom: 10px;
 }
@@ -225,11 +224,13 @@ hr {
     .game-container .game-message p {
       font-size: 60px;
       font-weight: bold;
-      background-color: #fff;
+      background-color: rgba(255, 255, 255, 0.65);
       color: #aab1b0;
       height: 200px;
+      width: 80%;
       line-height: 200px;
-      margin-top: 150px; }
+      margin-top: 150px;
+      margin-left: 10% }
     .game-container .game-message .lower {
       display: block;
       margin-top: -75px; }
@@ -241,8 +242,7 @@ hr {
       text-decoration: none;
       color: #f9f6f2;
       height: 40px;
-      line-height: 42px;
-      margin-left: 9px; }
+      line-height: 42px; }
       .game-container .game-message a.keep-playing-button {
         display: none; }
     .game-container .game-message.game-won {
@@ -384,7 +384,10 @@ hr {
   }
     @media screen and (max-width: 520px) {
       .tile.tile-2:after {
-        font-size: 8px; } }
+        font-size: 6px;
+        padding-left: 2px;
+        line-height: 8px;
+        padding-top: 8px; } }
   .tile.tile-4 .tile-inner {
     color: #f47d44;
     background: #f47d44;
@@ -400,6 +403,12 @@ hr {
     line-height: 12px;
     padding-left: 5px;
   }
+    @media screen and (max-width: 520px) {
+      .tile.tile-4:after {
+        font-size: 6px;
+        padding-left: 2px;
+        line-height: 8px;
+        padding-top: 8px; } }
   .tile.tile-8 .tile-inner {
     color: #ffd600;
     background: #ffd600; }
@@ -414,6 +423,12 @@ hr {
     line-height: 12px;
     padding-left: 5px;
   }
+    @media screen and (max-width: 520px) {
+      .tile.tile-8:after {
+        font-size: 6px;
+        padding-left: 2px;
+        line-height: 8px;
+        padding-top: 8px; } }
   .tile.tile-16 .tile-inner {
     color: #9eccb3;
     background: #9eccb3; }
@@ -428,6 +443,12 @@ hr {
     line-height: 12px;
     padding-left: 5px;
   }
+  @media screen and (max-width: 520px) {
+      .tile.tile-16:after {
+        font-size: 6px;
+        padding-left: 2px;
+        line-height: 8px;
+        padding-top: 8px; } }
   .tile.tile-32 .tile-inner {
     color: #46866f;
     background: #46866f; }
@@ -441,6 +462,12 @@ hr {
     letter-spacing: 0.01em;
     line-height: 12px;
     padding-left: 5px;  }
+    @media screen and (max-width: 520px) {
+      .tile.tile-32:after {
+        font-size: 6px;
+        padding-left: 2px;
+        line-height: 8px;
+        padding-top: 8px; } }
   .tile.tile-64 .tile-inner {
     color: #83b5dd;
     background: #83b5dd; }
@@ -455,6 +482,12 @@ hr {
     line-height: 12px;
     padding-left: 5px;
   }
+    @media screen and (max-width: 520px) {
+      .tile.tile-64:after {
+        font-size: 6px;
+        padding-left: 2px;
+        line-height: 8px;
+        padding-top: 8px; } }
   .tile.tile-128 .tile-inner {
     color: #006bb6;
     background: #006bb6;
@@ -474,6 +507,12 @@ hr {
     line-height: 12px;
     padding-left: 5px;
   }
+    @media screen and (max-width: 520px) {
+      .tile.tile-128:after {
+        font-size: 6px;
+        padding-left: 2px;
+        line-height: 8px;
+        padding-top: 8px; } }
   .tile.tile-256 .tile-inner {
     color: #9B90C8;
     background: #9B90C8;
@@ -493,6 +532,12 @@ hr {
     line-height: 12px;
     padding-left: 5px;
   }
+    @media screen and (max-width: 520px) {
+      .tile.tile-256:after {
+        font-size: 6px;
+        padding-left: 2px;
+        line-height: 8px;
+        padding-top: 8px; } }
   .tile.tile-512 .tile-inner {
     color: #7f7ea8;
     background: #7f7ea8;
@@ -512,6 +557,12 @@ hr {
     line-height: 12px;
     padding-left: 5px;
   }
+    @media screen and (max-width: 520px) {
+      .tile.tile-512:after {
+        font-size: 6px;
+        padding-left: 2px;
+        line-height: 8px;
+        padding-top: 8px; } }
   .tile.tile-1024 .tile-inner {
     color: #b163a3;
     background: #b163a3;
@@ -531,6 +582,12 @@ hr {
     line-height: 12px;
     padding-left: 5px;
   }
+    @media screen and (max-width: 520px) {
+      .tile.tile-1024:after {
+        font-size: 6px;
+        padding-left: 2px;
+        line-height: 8px;
+        padding-top: 8px; } }
   .tile.tile-2048 .tile-inner {
     color: #752864;
     background: #752864;
@@ -550,13 +607,30 @@ hr {
     line-height: 12px;
     padding-left: 5px;
   }
+    @media screen and (max-width: 520px) {
+      .tile.tile-2048:after {
+        font-size: 6px;
+        padding-left: 2px;
+        line-height: 8px;
+        padding-top: 8px; } }
   .tile.tile-super .tile-inner {
-    color: #f9f6f2;
-    background: #3ceb48d;
-    font-size: 30px; }
+    color: #b163a3;
+    background: #b163a3;
+    font-size: 0px; }
+  .tile.tile-super:after {
+    content: "2014 Color of the Year \a PANTONE 18-3224 \a Radiant Orchid";
+    display: block;
+    white-space: pre-line;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 0.01em;
+    line-height: 24px;
+    padding-left: 10px;
+  }
     @media screen and (max-width: 520px) {
       .tile.tile-super .tile-inner {
-        font-size: 10px; } }
+        font-size: 0px; } }
 
 @-webkit-keyframes appear {
   0% {
@@ -685,7 +759,7 @@ hr {
 
 @media screen and (max-width: 520px) {
   html, body {
-    font-size: 15px; }
+    font-size: 12px; }
 
   body {
     margin: 20px 0;
@@ -695,11 +769,17 @@ hr {
     font-size: 27px;
     margin-top: 15px; }
 
+  h2 {
+    font-size: 18px;
+  }
+
   .container {
     width: 280px;
     margin: 0 auto; }
 
   .score-container, .best-container {
+    font-size: 20px;
+    line-height: 2.5;
     margin-top: 0;
     padding: 15px 10px;
     min-width: 40px; }
@@ -708,12 +788,13 @@ hr {
     margin-bottom: 10px; }
 
   .game-intro {
-    width: 55%;
+    margin-bottom: 10px;
     display: block;
     box-sizing: border-box;
-    line-height: 1.65; }
+    line-height: 1.2; }
 
   .restart-button {
+    font-size: 16px;
     width: 42%;
     padding: 0;
     display: block;
@@ -732,7 +813,7 @@ hr {
     -ms-user-select: none;
     -ms-touch-action: none;
     touch-action: none;
-    background: #bbada0;
+    background: #fff;
     border-radius: 6px;
     width: 280px;
     height: 280px;
@@ -758,22 +839,20 @@ hr {
       .game-container .game-message p {
         font-size: 60px;
         font-weight: bold;
-        height: 60px;
-        line-height: 60px;
-        margin-top: 222px; }
+        height: 150px;
+        line-height: 150px;
+        margin-top: 65px; }
       .game-container .game-message .lower {
         display: block;
-        margin-top: 59px; }
+        margin-top: -65px; }
       .game-container .game-message a {
         display: inline-block;
-        background: #8f7a66;
         border-radius: 3px;
         padding: 0 20px;
         text-decoration: none;
         color: #f9f6f2;
         height: 40px;
-        line-height: 42px;
-        margin-left: 9px; }
+        line-height: 42px; }
         .game-container .game-message a.keep-playing-button {
           display: none; }
       .game-container .game-message.game-won {
@@ -802,8 +881,7 @@ hr {
     height: 57.5px;
     margin-right: 10px;
     float: left;
-    border-radius: 3px;
-    background: rgba(238, 228, 218, 0.35); }
+    border-radius: 3px; }
     .grid-cell:last-child {
       margin-right: 0; }
 
@@ -883,10 +961,21 @@ hr {
   .tile .tile-inner {
     font-size: 35px; }
 
+  .game-explanation {
+    margin-top: 10px;
+  }
+
+.color-key {
+  height: 30px;
+  margin-bottom: 10px;
+}
+
+.color-square {
+  width: 22px;
+  height: 22px;
+  float: left;
+  border: solid 3px #fff;
+}
+
   .game-message p {
-    font-size: 30px !important;
-    height: 30px !important;
-    line-height: 30px !important;
-    margin-top: 90px !important; }
-  .game-message .lower {
-    margin-top: 30px !important; } }
+    font-size: 30px !important; }
